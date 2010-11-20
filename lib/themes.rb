@@ -26,7 +26,7 @@ ActionController::Base.class_eval do
 
   def add_theme_path
     current_theme
-    new_path = "#{Rails.public_path}/themes/#{@active_theme}/templates")
+    new_path = "#{Rails.public_path}/themes/#{@active_theme}/templates"
     self.prepend_view_path(new_path)
     return true
   end

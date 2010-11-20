@@ -2,6 +2,12 @@
 
 Plugin to provide theme support for Rails applications.
 
+## Install
+
+Add to your `Gemfile`:
+
+    gem 'themes', :git => 'https://github.com/fesplugas/rails-themes.git'
+
 ## Usage
 
 It expects the following folder structure.
